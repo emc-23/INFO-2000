@@ -1,0 +1,24 @@
+name: base
+channels:
+  - defaults
+  - https://repo.anaconda.com/pkgs/main
+  - https://repo.anaconda.com/pkgs/r
+  - https://repo.anaconda.com/pkgs/msys2
+dependencies:
+  - python=3.9
+  - conda==24.11.3
+  - setuptools
+  - pip
+  - wheel
+  - conda-anaconda-telemetry
+  - conda-content-trust
+  - conda-libmamba-solver
+  - menuinst
+  - anaconda_prompt
+  - anaconda_powershell_prompt
+  - anaconda-anon-usage
+  - jupyterlab
+  - matplotlib
+  - pandas
+  - seaborn
+prefix: C:\Users\Evan Courville\miniconda3
